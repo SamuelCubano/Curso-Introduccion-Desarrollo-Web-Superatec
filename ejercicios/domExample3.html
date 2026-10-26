@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM: Contador Interactivo</title>
+    <style>
+        /* CSS: Estilos visuales modernos */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #eef2f5;
+            padding: 60px;
+        }
+
+        .contador-card {
+            background-color: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            max-width: 350px;
+            margin: 0 auto;
+        }
+
+        #numero {
+            font-size: 80px;
+            font-weight: bold;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .grupo-botones {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            color: white;
+        }
+
+        #btnRestar { background-color: #dc3545; }
+        #btnReset { background-color: #6c757d; }
+        #btnSumar { background-color: #28a745; }
+
+        button:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contador-card">
+        <h2>Contador Interactivo</h2>
+        <!-- Elemento donde mostraremos el número -->
+        <div id="numero">0</div>
+
+        <!-- Botones de control -->
+        <div class="grupo-botones">
+            <button id="btnRestar">-</button>
+            <button id="btnReset">Reset</button>
+            <button id="btnSumar">+</button>
+        </div>
+    </div>
+
+    <script>
+        // JS: Lógica y DOM
+
+        // 1. Variable para guardar el valor actual del contador
+        let cuenta = 0;
+
+        // 2. Buscamos los elementos del HTML que vamos a usar
+        let displayNumero = document.getElementById("numero");
+        let btnSumar = document.getElementById("btnSumar");
+        let btnRestar = document.getElementById("btnRestar");
+        let btnReset = document.getElementById("btnReset");
+
+        // 3. Evento para SUMAR (+)
+        btnSumar.addEventListener("click", function() {
+            cuenta = cuenta + 1; // Aumentamos la variable en 1
+            displayNumero.innerText = cuenta; // Actualizamos el DOM
+        });
+
+        // 4. Evento para RESTAR (-) con una pequeña regla lógica
+        btnRestar.addEventListener("click", function() {
+            if (cuenta > 0) { // Condicional para evitar números negativos
+                cuenta = cuenta - 1;
+                displayNumero.innerText = cuenta;
+            }
+        });
+
+        // 5. Evento para REINICIAR (Reset)
+        btnReset.addEventListener("click", function() {
+            cuenta = 0;
+            displayNumero.innerText = cuenta;
+        });
+    </script>
+
+</body>
+</html>

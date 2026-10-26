@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo DOM: Modo Oscuro</title>
+    <style>
+        /* CSS: Estilos iniciales (Modo Claro) */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffffff;
+            color: #222222;
+            padding: 50px;
+            transition: background-color 0.4s, color 0.4s; /* Animación suave al cambiar */
+        }
+
+        .contenedor {
+            border: 2px solid #ddd;
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            background-color: #222222;
+            color: #ffffff;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1 id="estadoTexto">Modo Claro ☀️</h1>
+        <p id="subtitulo">Haz clic en el botón para alternar los colores del sitio.</p>
+        <button id="btnModo">Cambiar a Modo Oscuro</button>
+    </div>
+
+    <script>
+        // JS: Interacción con el DOM
+
+        // 1. Buscamos los elementos que vamos a cambiar
+        let cuerpo = document.body; // Selecciona la etiqueta <body> directa
+        let estadoTexto = document.getElementById("estadoTexto");
+        let btnModo = document.getElementById("btnModo");
+
+        // Variable booleana para saber el estado actual
+        let esModoOscuro = false;
+
+        // 2. Escuchamos el evento "click" en el botón
+        btnModo.addEventListener("click", function() {
+            // Alternamos la variable booleana
+            esModoOscuro = !esModoOscuro;
+
+            // 3. Modificamos el DOM según el estado
+            if (esModoOscuro) {
+                // Cambiar a Modo Oscuro
+                cuerpo.style.backgroundColor = "#121212";
+                cuerpo.style.color = "#ffffff";
+                estadoTexto.innerText = "Modo Oscuro 🌙";
+                btnModo.innerText = "Cambiar a Modo Claro";
+                btnModo.style.backgroundColor = "#ffffff";
+                btnModo.style.color = "#121212";
+            } else {
+                // Volver a Modo Claro
+                cuerpo.style.backgroundColor = "#ffffff";
+                cuerpo.style.color = "#222222";
+                estadoTexto.innerText = "Modo Claro ☀️";
+                btnModo.innerText = "Cambiar a Modo Oscuro";
+                btnModo.style.backgroundColor = "#222222";
+                btnModo.style.color = "#ffffff";
+            }
+        });
+    </script>
+
+</body>
+</html>
