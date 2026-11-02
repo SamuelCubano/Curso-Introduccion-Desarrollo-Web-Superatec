@@ -2,11 +2,11 @@
 
 <div align="center">
 
-![HTML5](https://icons-samuel.netlify.app/html5.webp)
-![CSS3](https://icons-samuel.netlify.app/css3.webp)
-![JavaScript](https://icons-samuel.netlify.app/javascript.webp)
-![Git](https://icons-samuel.netlify.app/git.webp)
-![GitHub](https://icons-samuel.netlify.app/github.webp)
+<img src="https://icons-samuel.netlify.app/html5.webp" width="60" alt="HTML5"/>
+<img src="https://icons-samuel.netlify.app/css3.webp" width="60" alt="CSS3"/>
+<img src="https://icons-samuel.netlify.app/javascript.webp" width="60" alt="JavaScript"/>
+<img src="https://icons-samuel.netlify.app/git.webp" width="60" alt="Git"/>
+<img src="https://icons-samuel.netlify.app/github.webp" width="60" alt="GitHub"/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-SamuelCubano-181717?style=for-the-badge&logo=github)](https://github.com/SamuelCubano)
 [![Superatec](https://img.shields.io/badge/Impartido%20por-Superatec-0078D4?style=for-the-badge)](https://github.com/SamuelCubano/Curso-Introduccion-Desarrollo-Web)
