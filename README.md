@@ -71,6 +71,19 @@ Curso-Introduccion-Desarrollo-Web/
 
 Gracias a **Superatec** por impartir este curso de introducción al desarrollo web y brindar las herramientas para comenzar en este camino. 🎓
 
+### 🌐 Redes de Superatec
+
+<div align="center">
+
+[<img src="https://icons-samuel.netlify.app/web.webp" width="40" alt="Web"/>](https://superatec.org.ve/)
+[<img src="https://icons-samuel.netlify.app/instagram.webp" width="40" alt="Instagram"/>](https://www.instagram.com/superatec.ve/?hl=es-la)
+[<img src="https://icons-samuel.netlify.app/linkedin.webp" width="40" alt="LinkedIn"/>](https://www.linkedin.com/company/superatec-venezuela/?originalSubdomain=ve)
+[<img src="https://icons-samuel.netlify.app/x.webp" width="40" alt="X"/>](https://x.com/SUPERATEC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
+[<img src="https://icons-samuel.netlify.app/facebook.webp" width="40" alt="Facebook"/>](https://es-la.facebook.com/superatec/)
+[<img src="https://icons-samuel.netlify.app/youtube.webp" width="40" alt="YouTube"/>](https://www.youtube.com/channel/UCiR9PEHS-fYSeAHVCumIEwQ)
+
+</div>
+
 ---
 
 <div align="center">
