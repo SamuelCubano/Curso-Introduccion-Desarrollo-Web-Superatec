@@ -7,6 +7,7 @@
 <img src="https://icons-samuel.netlify.app/javascript.webp" width="60" alt="JavaScript"/>
 <img src="https://icons-samuel.netlify.app/git.webp" width="60" alt="Git"/>
 <img src="https://icons-samuel.netlify.app/github.webp" width="60" alt="GitHub"/>
+<img src="https://icons-samuel.netlify.app/visualstudiocode.webp" width="60" alt="Visual Studio Code"/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-SamuelCubano-181717?style=for-the-badge&logo=github)](https://github.com/SamuelCubano)
 [![Superatec](https://img.shields.io/badge/Impartido%20por-Superatec-0078D4?style=for-the-badge)](https://github.com/SamuelCubano/Curso-Introduccion-Desarrollo-Web)
@@ -30,6 +31,7 @@ Repositorio con el material, ejercicios y recursos del **Curso de Introducción 
 | JavaScript | <img src="https://icons-samuel.netlify.app/javascript.webp" width="40"/> | Lógica, DOM y programación dinámica |
 | Git | <img src="https://icons-samuel.netlify.app/git.webp" width="40"/> | Control de versiones local |
 | GitHub | <img src="https://icons-samuel.netlify.app/github.webp" width="40"/> | Repositorios remotos y colaboración |
+| Visual Studio Code | <img src="https://icons-samuel.netlify.app/visualstudiocode.webp" width="40"/> | Editor de código utilizado |
 
 ---
 
